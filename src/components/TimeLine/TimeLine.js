@@ -43,9 +43,14 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id='about'>
+      <SectionDivider/>
+      <br/>
+      <SectionTitle>About me</SectionTitle>
+      <SectionText>
+        My name is Danyk Allard. I'm a newly graduated Web Developper working in Saint-Jean-sur-Richelieu, Québec, Canada.
+      </SectionText>
+    </Section>
   );
 };
 
